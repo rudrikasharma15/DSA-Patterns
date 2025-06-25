@@ -1,91 +1,122 @@
-🌟 String DSA Patterns
-Author: Rudrika Sharma
+# 🌟 String DSA Patterns  
+**Author**: Rudrika Sharma  
 
-🧩 STRING PATTERNS (with Examples)
-1. Two Pointers
-For comparing or modifying characters from both ends of a string.
+---
 
-🔹 Examples:
+## 🧩 STRING PATTERNS (with Examples)
 
-isPalindrome → Check if a string reads the same forwards and backwards
+---
 
-reverseVowels → Reverse only vowels in a string
+### 1. **Two Pointers**
+> For comparing or modifying characters from both ends of a string.
 
-validPalindrome → Can become a palindrome by removing at most one character
+🔹 **Examples**:  
+- `isPalindrome` → Check if a string reads the same forwards and backwards  
+- `reverseVowels` → Reverse only vowels in a string  
+- `validPalindrome` → Can become a palindrome by removing at most one character  
 
-2. Sliding Window
-Use when substring length or conditions over a window of characters matter.
+---
 
-🔹 Examples:
+### 2. **Sliding Window**
+> Use when substring length or conditions over a window of characters matter.
 
-Longest Substring Without Repeating Characters
+🔹 **Examples**:  
+- `Longest Substring Without Repeating Characters`  
+- `Minimum Window Substring`  
+- `Permutation in String`  
 
-Minimum Window Substring
+---
 
-Permutation in String
+### 3. **Expand Around Center**
+> Efficient way to detect all palindromic substrings.
 
-3. Expand Around Center
-Efficient way to detect all palindromic substrings.
+🔹 **Examples**:  
+- `Longest Palindromic Substring`  
+- `Count Palindromic Substrings`  
 
-🔹 Examples:
+---
 
-Longest Palindromic Substring
+### 4. **Stack-Based String Manipulation**
+> Useful when characters are added/removed based on dynamic conditions.
 
-Count Palindromic Substrings
+🔹 **Examples**:  
+- `Remove All Adjacent Duplicates` → `"abbaca"` → `"ca"`  
+- `Decode String` → `"3[a2[c]]"` → `"accaccacc"`  
+- `Remove K Digits` → `"1432219"` → `"1219"`  
 
-4. Stack-Based String Manipulation
-Useful when characters are added/removed based on dynamic conditions.
+---
 
-🔹 Examples:
+### 5. **HashMap / Frequency Count**
+> When tracking characters or their frequency is necessary.
 
-Remove All Adjacent Duplicates → "abbaca" → "ca"
+🔹 **Examples**:  
+- `Valid Anagram`  
+- `Group Anagrams`  
+- `Isomorphic Strings`  
+- `First Unique Character`  
 
-Decode String → "3[a2[c]]" → "accaccacc"
+---
 
-Remove K Digits → "1432219" → "1219"
+### 6. **Sorting Based**
+> When lexicographical order or frequency-based sorting is needed.
 
-5. HashMap / Frequency Count
-When tracking characters or their frequency is necessary.
+🔹 **Examples**:  
+- `Remove Duplicate Letters`  
+- `Reorganize String`  
+- `Sort Characters By Frequency`  
 
-🔹 Examples:
+---
 
-Valid Anagram
+### 7. **Trie / Prefix Based** (Advanced)
+> For efficient prefix searching or dictionary-based problems.
 
-Group Anagrams
+🔹 **Examples**:  
+- `Longest Word in Dictionary`  
+- `Replace Words`  
+- `Word Search II`  
 
-Isomorphic Strings
+---
 
-First Unique Character
+### 8. **Dynamic Programming on Strings**
+> For optimal solutions where subproblems involve substring comparison.
 
-6. Sorting Based
-When lexicographical order or frequency-based sorting is needed.
+🔹 **Examples**:  
+- `Longest Common Subsequence`  
+- `Edit Distance`  
+- `Longest Palindromic Subsequence`  
 
-🔹 Examples:
+---
 
-Remove Duplicate Letters
+### 9. **Greedy + Stack**
+> When choosing the smallest or largest string under constraints.
 
-Reorganize String
+🔹 **Examples**:  
+- `Remove K Digits`  
+- `Remove Duplicate Letters`  
 
-Sort Characters By Frequency
+---
 
-7. Trie / Prefix Based (Advanced)
-For efficient prefix searching or dictionary-based problems.
+### 10. **Backtracking on Strings**
+> For generating all valid combinations or exploring partitions.
 
-🔹 Examples:
+🔹 **Examples**:  
+- `Letter Combinations of a Phone Number`  
+- `Restore IP Addresses`  
+- `Palindrome Partitioning`  
 
-Longest Word in Dictionary
+---
 
-Replace Words
+### 11. **Rolling Hash / KMP (Advanced)**
+> Efficient pattern matching in large texts.
 
-Word Search II
+🔹 **Examples**:  
+- `Implement strStr()`  
+- `Detect Repeated Substrings`  
+- `KMP Algorithm`  
 
-8. Dynamic Programming on Strings
-For optimal solutions where subproblems involve substring comparison.
+---
 
-🔹 Examples:
+## ✅ Tip:  
+If you're confident with these patterns, you're interview-ready for **FAANG**, **Product-Based**, and **Internship roles**!
 
-Longest Common Subsequence
-
-Edit Distance
-
-Longest Palindromic Subsequence
+---

@@ -116,7 +116,4 @@
 
 ---
 
-## ✅ Tip:  
-If you're confident with these patterns, you're interview-ready for **FAANG**, **Product-Based**, and **Internship roles**!
 
----
